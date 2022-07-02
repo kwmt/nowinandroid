@@ -28,3 +28,4 @@ buildscript {
         classpath(libs.secrets.gradlePlugin)
     }
 }
+apply(from = rootProject.file("gradle/projectDependencyGraph.gradle"))
